@@ -1,0 +1,27 @@
+{
+    "name":        "userfriendly/utility-bundle",
+    "type":        "symfony-bundle",
+    "description": "Symfony 2 bundle for often required utilities.",
+    "keywords":    ["utilities", "email"],
+    "homepage":    "http://github.com/userfriendly/UtilityBundle",
+    "license":     "MIT",
+
+    "authors": [
+        {
+            "name": "Moritz Kraft",
+            "email": "chamalla.extract@gmail.com"
+        }
+    ],
+
+    "require": {
+        "symfony/swiftmailer-bundle": ">=2.1,<2.2"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Userfriendly\\Bundle\\UtilityBundle": ""
+        }
+    },
+
+    "target-dir": "Userfriendly/Bundle/UtilityBundle"
+}
