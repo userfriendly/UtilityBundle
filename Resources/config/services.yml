@@ -1,9 +1,9 @@
 parameters:
-    uf.util.email.class: FanPollster\ApplicationBundle\Util\Email
+    uf_util_email_class: Userfriendly\Bundle\UtilityBundle\Utility\Email
 
 services:
     uf.util.email:
-        class: %uf.util.email.class%
+        class: %uf_util_email_class%
         arguments:
             - '@mailer'
             - %uf_util_system_email_username%
