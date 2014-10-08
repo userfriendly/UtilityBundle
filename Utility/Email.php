@@ -13,7 +13,7 @@ class Email
     {
         $this->mailer = $mailer;
         $this->systemEmailAdress = $systemEmailAccount . '@' . $websiteDomain;
-}
+    }
 
     public function send( $to, $subject, $body, $from = null, $replyTo = null )
     {
